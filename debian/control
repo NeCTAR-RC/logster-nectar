@@ -1,0 +1,13 @@
+Source: python-logster-nectar
+Section: unknown
+Priority: optional
+Maintainer: Russell Sim <russell.sim@gmail.com>
+Build-Depends: debhelper (>= 9), python-all (>= 2.6), python-setuptools
+Standards-Version: 3.9.5
+Homepage: https://github.com/NeCTAR-RC/logster-nectar
+
+Package: python-logster-nectar
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Logster parsers used by NeCTAR RC.
+ NeCTAR Logster Parsers, Logster parsers used by NeCTAR RC.
