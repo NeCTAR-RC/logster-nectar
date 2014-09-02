@@ -28,10 +28,10 @@ setup(
     author_email='russell.sim@gmail.com',
     url='https://github.com/NeCTAR-RC/logster-nectar',
     packages=[
-        'logster-nectar',
+        'logster_nectar',
     ],
-    package_dir={'logster-nectar':
-                 'logster-nectar'},
+    package_dir={'logster_nectar':
+                 'logster_nectar'},
     include_package_data=True,
     install_requires=requirements,
     license="GPLv3+",
